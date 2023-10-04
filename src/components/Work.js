@@ -53,7 +53,7 @@ const Work = () => {
                 <ul className="text-xl md:text-2xl tracking-wide mt-4 mx-auto max-w-3xl list-disc pl-5 leading-loose">
                     <li className="my-3">Addressing and resolving bugs and issues in the MOOD app to ensure s a smooth experience.</li>
                     <li className="my-3">Enhancing user conversation skills in MOOD app through AI implementation.</li>
-                    <li className="my-3">Developing and refining MOOD for IOS and Android, ensuring consistent and personalized user experience.</li>
+                    <li className="my-3">Working on both front-end and back-end code of MOOD to ensure a seamless and responsive user experience.</li>
                 </ul>
             </div>
             
