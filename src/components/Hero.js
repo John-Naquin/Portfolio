@@ -55,7 +55,7 @@ const Hero = () => {
 
         <button 
           className="w-14 h-14 bg-white rounded-full border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800 transition-all duration-300"
-          onClick={() => handleButtonClick('https://1drv.ms/b/s!Ai6h3GnefRtXsUTts5LaN9ZEP4t2?e=gwY0uW')}
+          onClick={() => handleButtonClick('https://1drv.ms/b/s!Ai6h3GnefRtXsWqltkzUOY5ncJg8?e=GhXm6Z')}
         >
           <img src={resumeIcon} alt="Resume" className="w-8 h-8 mx-auto" />
         </button>
