@@ -48,12 +48,12 @@ const Work = () => {
             </div>
 
             <div className="mb-20 text-center">
-                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600">University of Louisiana at Lafayette Housing</h4>
-                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black">Intern | Lafayette, Louisiana | May 2021 - May 2023</h5>
+                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600">MOOD</h4>
+                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black">Software Developer | Remote | October 2023 - Present</h5>
                 <ul className="text-xl md:text-2xl tracking-wide mt-4 mx-auto max-w-3xl list-disc pl-5 leading-loose">
-                    <li className="my-3">Maintained 394 apartments and 28 buildings while maintaining the area around the buildings.</li>
-                    <li className="my-3">Worked with more than 600+ residents to help them with any issues they may have with their living situations.</li>
-                    <li className="my-3">Performed as a team with other interns and building manager to complete all necessary task.</li>
+                    <li className="my-3">Addressing and resolving bugs and issues in the MOOD app to ensure s a smooth experience.</li>
+                    <li className="my-3">Enhancing user conversation skills in MOOD app through AI implementation.</li>
+                    <li className="my-3">Developing and refining MOOD for IOS and Android, ensuring consistent and personalized user experience.</li>
                 </ul>
             </div>
             
