@@ -39,7 +39,7 @@ const Footer = () => {
 
                 <button 
                     className="w-12 h-12 md:w-14 md:h-14 bg-white rounded-full border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800 transition-all duration-300"
-                    onClick={() => handleButtonClick('https://1drv.ms/b/s!Ai6h3GnefRtXsW3J8IeirsJlDwn2?e=AGjh7f')}
+                    onClick={() => handleButtonClick('https://1drv.ms/b/s!Ar5F0wL10bwk0SLgG_fOs0O_FRTm?e=9BxOHM')}
                 >
                     <img src={resumeIcon} alt="Resume" className="w-6 h-6 mx-auto" />
                 </button>
