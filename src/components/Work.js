@@ -48,12 +48,12 @@ const Work = () => {
             </div>
 
             <div className="mb-20 text-center">
-                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600">MOOD</h4>
+                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600">Mood Social and Dating</h4>
                 <h5 className="text-lg font-semibold tracking-wide mt-2 text-black">Software Developer | Remote | October 2023 - Present</h5>
                 <ul className="text-xl md:text-2xl tracking-wide mt-4 mx-auto max-w-3xl list-disc pl-5 leading-loose">
-                    <li className="my-3">Addressing and resolving bugs and issues in the MOOD app to ensure s a smooth experience.</li>
-                    <li className="my-3">Enhancing user conversation skills in MOOD app through AI implementation.</li>
-                    <li className="my-3">Working on both front-end and back-end code of MOOD to ensure a seamless and responsive user experience.</li>
+                    <li className="my-3">Utilizing Android Studio and various code emulators to rigorously test and debug the Mood app, ensuring the code performs optimally across different devices and scenarios.</li>
+                    <li className="my-3">Implementing OpenAI's advanced AI capabilities to enhance the conversational skills within the Mood app, aiming to provide more natural and intuitive user interactions.</li>
+                    <li className="my-3">Developing the Mood app's front end using React.js and the back end using Python to ensure a seamless and responsive user experience.</li>
                 </ul>
             </div>
             
