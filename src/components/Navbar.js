@@ -9,6 +9,10 @@ const Navbar = () => {
     setIsOpen(false);
   }
 
+  const menuClasses = isOpen 
+    ? "fixed inset-0 w-full h-screen bg-white flex flex-col justify-center items-center space-y-4 md:hidden transition-transform duration-425 ease-in-out transform translate-x-0" 
+    : "fixed inset-0 w-full h-screen bg-white flex flex-col justify-center items-center space-y-4 md:hidden transition-transform duration-425 ease-in-out transform translate-x-full";
+
   return (
     <nav className="flex justify-between items-center py-3 px-5 bg-white text-xl fixed top-0 w-full shadow-md z-10 font-source-code-pro">
       <div className="flex items-center">
@@ -31,8 +35,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <div className={`${isOpen ? '' : 'hidden'} absolute top-0 left-0 w-full h-screen bg-white flex flex-col justify-center items-center space-y-4 md:hidden`}>
-  
+      <div className={menuClasses}>
         <button onClick={closeMenu} className="absolute top-3 right-3">
           <svg className="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"></path>
