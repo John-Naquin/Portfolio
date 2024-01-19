@@ -47,7 +47,6 @@ const Contact = () => {
 
         const formData = new FormData(e.target);
 
-    
         if (!validateForm(formData)) {
             toast.error("Please fill out all fields.", {
                 position: "top-center",
@@ -91,11 +90,11 @@ const Contact = () => {
                 <h2 className="text-4xl font-bold tracking-wide text-white mb-8">Contact</h2>
                 
                 <div className="bg-white p-8 rounded shadow-lg max-w-xl mx-auto">
-                    <form onSubmit={handleSubmit}>
-                        <input type="email" name="email" placeholder="Your Email" className="p-2 rounded mb-4 w-full" />
-                        <input type="text" name="name" placeholder="Your Name" className="p-2 rounded mb-4 w-full" />
-                        <textarea name="message" placeholder="Your Message" className="p-2 rounded mb-4 w-full h-32"></textarea>
-                        <button type="submit" className="mt-2 text-blue-500 border-2 border-blue-500 p-2 rounded w-full hover:bg-blue-500 hover:text-white transition-colors duration-300">Button</button>
+                    <form onSubmit={handleSubmit}>            
+                        <input type="email" name="email" placeholder="Your Email" className="p-2 rounded mb-4 w-full border-2 border-blue-600 focus:outline-none focus:border-blue-800" />
+                        <input type="text" name="name" placeholder="Your Name" className="p-2 rounded mb-4 w-full border-2 border-blue-600 focus:outline-none focus:border-blue-800" />
+                        <textarea name="message" placeholder="Your Message" className="p-2 rounded mb-4 w-full h-32 border-2 border-blue-600 focus:outline-none focus:border-blue-800"></textarea>
+                        <button type="submit" className="mt-2 text-blue-500 border-2 border-blue-500 p-2 rounded w-full hover:bg-blue-500 hover:text-white transition-colors duration-300">Send Message</button>
                     </form>
                 </div>
             </div>

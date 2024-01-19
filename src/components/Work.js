@@ -37,27 +37,26 @@ const Work = () => {
             
             <h1 className="text-3xl font-bold tracking-wide text-blue-600 text-center mb-8">Work Experience</h1>
 
-            <div className="mb-20 text-center">
-                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600">Code Ninjas</h4>
-                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black">Instructor | Pensacola, Florida | August 2023 - Present</h5>
-                <ul className="text-xl md:text-2xl tracking-wide mt-4 mx-auto max-w-3xl list-disc pl-5 leading-loose">
-                    <li className="my-3">Teaching kids programming fundamentals using JavaScript, Python, and C#. </li>
-                    <li className="my-3">Guide students through practice material, providing feedback to center manager and parents. </li>
-                    <li className="my-3">Plan activities to enhance their programming and game design skills. </li>
+            <div className="mb-20">
+                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600 text-center">Code Ninjas</h4>
+                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black text-center">Instructor | Pensacola, Florida | August 2023 - Present</h5>
+                <ul className="text-lg md:text-xl tracking-wide mt-4 mx-auto max-w-2xl pl-0">
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Teaching kids programming fundamentals using JavaScript, Python, and C#.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Guide students through practice material, providing feedback to center manager and parents.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Plan activities to enhance their programming and game design skills.</li>
                 </ul>
             </div>
 
-            <div className="mb-20 text-center">
-                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600">Mood Social and Dating</h4>
-                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black">Software Developer | Remote | October 2023 - Present</h5>
-                <ul className="text-xl md:text-2xl tracking-wide mt-4 mx-auto max-w-3xl list-disc pl-5 leading-loose">
-                    <li className="my-3">Utilizing Android Studio and various code emulators to rigorously test and debug the Mood app, ensuring the code performs optimally across different devices and scenarios.</li>
-                    <li className="my-3">Implementing OpenAI's advanced AI capabilities to enhance the conversational skills within the Mood app, aiming to provide more natural and intuitive user interactions.</li>
-                    <li className="my-3">Developing the Mood app's front end using React.js and the back end using Python to ensure a seamless and responsive user experience.</li>
+            <div className="mb-20">
+                <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600 text-center">Mood Social and Dating</h4>
+                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black text-center">Software Developer | Remote | October 2023 - Present</h5>
+                <ul className="text-lg md:text-xl tracking-wide mt-4 mx-auto max-w-2xl pl-0">
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Utilizing Android Studio and various code emulators to rigorously test and debug the Mood app, ensuring the code performs optimally across different devices and scenarios.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Implementing OpenAI's advanced AI capabilities to enhance the conversational skills within the Mood app, aiming to provide more natural and intuitive user interactions.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Developing the Mood app's front end using React.js and the back end using Python to ensure a seamless and responsive user experience.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Developing an admin portal for control over various aspects of the app such as statistics and specialized user accounts.</li>
                 </ul>
             </div>
-            
-
 
             <p className={`text-4xl text-blue-600 absolute bottom-0 left-0 transform ${bottomTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={bottomTagRef}>&lt;/section&gt;</p>
         </section>
