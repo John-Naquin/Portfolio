@@ -21,7 +21,7 @@ const Navbar = () => {
           to="hero" 
           smooth={true} 
           duration={500} 
-          className="ml-2 font-bold cursor-pointer text-2xl text-black"
+          className="ml-2 font-bold cursor-pointer text-2xl text-black hover:text-blue-600 transition-colors"
         >
           <div>{"<John />"}</div>
         </Link>
@@ -42,18 +42,18 @@ const Navbar = () => {
           </svg>
         </button>
 
-        <Link to="hero" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl">.Home()</Link>
-        <Link to="about" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl">.About()</Link>
-        <Link to="projects" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl">.Projects()</Link>
-        <Link to="work" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl">.Work()</Link>
-        <Link to="contact" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl">.Contact()</Link>
+        <Link to="hero" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl hover:text-blue-600 transition-colors">.Home()</Link>
+        <Link to="about" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl hover:text-blue-600 transition-colors">.About()</Link>
+        <Link to="projects" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl hover:text-blue-600 transition-colors">.Projects()</Link>
+        <Link to="work" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl hover:text-blue-600 transition-colors">.Work()</Link>
+        <Link to="contact" onClick={closeMenu} smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black text-2xl hover:text-blue-600 transition-colors">.Contact()</Link>
       </div>
 
       <div className="hidden md:flex space-x-4">
-        <Link to="about" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black">.About()</Link>
-        <Link to="projects" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black">.Projects()</Link>
-        <Link to="work" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black">.Work()</Link>
-        <Link to="contact" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black">.Contact()</Link>
+        <Link to="about" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black hover:text-blue-600 transition-colors">.About()</Link>
+        <Link to="projects" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black hover:text-blue-600 transition-colors">.Projects()</Link>
+        <Link to="work" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black hover:text-blue-600 transition-colors">.Work()</Link>
+        <Link to="contact" smooth={true} duration={500} offset={-90} className="cursor-pointer font-bold text-black hover:text-blue-600 transition-colors">.Contact()</Link>
       </div>
     </nav>
   );
