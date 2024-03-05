@@ -139,8 +139,11 @@ const Projects = () => {
                             <img src={Tail} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
                         </div>
                         <p className="mt-4 text-md md:text-basebp-6 p-6">
-                            Atlas is a all in chatbot. Use Atlas to chat with or answer your questions about writting or math.
+                            Atlas is a versatile digital assistant designed to engage in intelligent conversations, solve complex math problems, and assist with a wide range of writing tasks. From crafting essays to composing poems and even drafting entire books, Atlas seamlessly combines chat functionality with advanced problem-solving and creative writing capabilities, making it an indispensable tool for students, professionals, and anyone in between looking for a multi-functional bot companion.
                         </p>
+                        <hr className="my-4 w-3/4 mx-auto" />
+                        <p className="mt-2 text-sm">Using free tier of render so backend will take a few mins to spin up!</p>
+                        <hr className="my-4 w-3/4 mx-auto" />
                         <div className="flex items-center justify-center space-x-1 md:space-x-4">
                             <a href="https://atlas-black-beta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
                                 <img src={LinkIcon} alt="Live Demo Icon" className="h-4 w-4 mr-1 md:mr-2" />
