@@ -142,7 +142,7 @@ const Projects = () => {
                             Atlas is a versatile digital assistant designed to engage in intelligent conversations, solve complex math problems, and assist with a wide range of writing tasks. From crafting essays to composing poems and even drafting entire books, Atlas seamlessly combines chat functionality with advanced problem-solving and creative writing capabilities, making it an indispensable tool for students, professionals, and anyone in between looking for a multi-functional bot companion.
                         </p>
                         <hr className="my-4 w-3/4 mx-auto" />
-                        <p className="mt-2 text-sm">Using free tier of render so backend will take a few mins to spin up!</p>
+                        <p className="mt-2 text-sm">Just add Bob The Stats Bot to your discord and try it out!</p>
                         <hr className="my-4 w-3/4 mx-auto" />
                         <div className="flex items-center justify-center space-x-1 md:space-x-4">
                             <a href="https://atlas-black-beta.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
