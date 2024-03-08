@@ -65,8 +65,7 @@ const About = () => {
                 <div className="grid grid-cols-1 gap-4 mb-8 max-w-2xl mx-auto">
                     <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
                         <h2 className="text-2xl mb-6 text-center font-bold"></h2>
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
+                        <div className="grid grid-cols-2 gap-6">
                             <div>
                                 {renderSkill(atom, 'React.js')}
                                 {renderSkill(Boot, 'Bootstrap')}
@@ -86,11 +85,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
                 </div>
-
-
-
                 <h3 className="text-3xl font-bold tracking-wide mt-8 text-blue-600">Education</h3>
                 <h4 className="text-xl font-bold tracking-wide mt-4 text-black">University of Louisiana at Lafayette</h4>
                 <div className="mt-4 max-w-3xl mx-auto mb-6">
@@ -98,12 +93,7 @@ const About = () => {
                         I began my college studies in 2018 and completed them in 2023. Throughout my academic journey, I immersed myself in studying various programming languages, notably Java and Python, along with other web development tools. I took numerous courses, with a notable emphasis on data structures and algorithms. Holding a bachelor's degree in Computer Science, I have a solid foundation in software development.
                     </p>
                 </div>
-
-
-
-
             </div>
-
             <p className={`text-4xl text-blue-600 absolute bottom-0 left-0 transform ${bottomTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={bottomTagRef}>&lt;/section&gt;</p>
         </section>
     );
