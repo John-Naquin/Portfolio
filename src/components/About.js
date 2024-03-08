@@ -58,7 +58,6 @@ const About = () => {
             <p className={`text-4xl text-blue-600 absolute top-0 left-0 transform ${topTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={topTagRef}>&lt;section id="about"&gt;</p>
 
             <div className="text-center">
-                <h2 className="text-4xl font-bold tracking-wide text-white">About Me</h2>
                 <h3 className="text-3xl font-bold tracking-wide mt-8 text-blue-600">Skills</h3>
                 <p className="text-lg tracking-wide mt-4 text-black"></p>
 
