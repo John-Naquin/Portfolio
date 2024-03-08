@@ -10,6 +10,8 @@ import Git from '../images/git.png';
 import Python from '../images/python.png';
 import express from '../images/express.jpg';
 import java from '../images/java.png';
+import AWS from '../images/aws.webp';
+import NextJS from '../images/nextjs.jpg';
 
 const About = () => {
     const [topTagVisible, setTopTagVisible] = useState(false);
@@ -25,7 +27,7 @@ const About = () => {
         </div>
     );
 
-    
+
     useEffect(() => {
         const onScroll = () => {
             if (topTagRef.current) {
@@ -57,59 +59,45 @@ const About = () => {
 
             <div className="text-center">
                 <h2 className="text-4xl font-bold tracking-wide text-white">About Me</h2>
-                <p className="text-xl tracking-wide mt-4 text-white">Your description...</p>
-
                 <h3 className="text-3xl font-bold tracking-wide mt-8 text-blue-600">Skills</h3>
                 <p className="text-lg tracking-wide mt-4 text-black"></p>
 
-    
-                <div className="grid grid-cols-1 gap-4 mb-8 max-w-5xl mx-auto">
+                <div className="grid grid-cols-1 gap-4 mb-8 max-w-2xl mx-auto">
+                    <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
+                        <h2 className="text-2xl mb-6 text-center font-bold"></h2>
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
+                            <div>
+                                {renderSkill(atom, 'React.js')}
+                                {renderSkill(Boot, 'Bootstrap')}
+                                {renderSkill(tail, 'Tailwind CSS')}
+                                {renderSkill(js, 'Javascript')}
+                                {renderSkill(Git, 'Git')}
+                                {renderSkill(mongo, 'Mongodb')}
+                            </div>
 
-<div className="bg-white p-6 relative card-corners rounded shadow-lg">
-    <h2 className="text-2xl mb-6 text-center font-bold">Frontend</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                {renderSkill(NextJS, 'Next.js')}
+                                {renderSkill(Node, 'Node.js')}
+                                {renderSkill(express, 'Express.js')}
+                                {renderSkill(AWS, 'AWS')}
+                                {renderSkill(Python, 'Python')}
+                                {renderSkill(java, 'Java')}
+                            </div>
+                        </div>
+                    </div>
 
-        <div>
-            {renderSkill(atom, 'React.js')}
-            {renderSkill(Boot, 'Bootstrap')}
-            {renderSkill(tail, 'Tailwind CSS')}
-        </div>
-    
-        <div>
-            {renderSkill(js, 'Javascript')}
-            {renderSkill(Git, 'Git')}
-        </div>
-    </div>
-</div>
-
-
-<div className="bg-white p-6 relative card-corners rounded shadow-lg">
-    <h2 className="text-2xl mb-6 text-center font-bold">Backend</h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-        <div>
-            {renderSkill(mongo, 'Mongodb')}
-            {renderSkill(Node, 'Node.js')}
-            {renderSkill(express, 'Express.js')}
-        </div>
-        <div>
-            {renderSkill(Python, 'Python')}
-            {renderSkill(java, 'Java')}
-            </div>
-    </div>
-</div>
-</div>
+                </div>
 
 
 
                 <h3 className="text-3xl font-bold tracking-wide mt-8 text-blue-600">Education</h3>
                 <h4 className="text-xl font-bold tracking-wide mt-4 text-black">University of Louisiana at Lafayette</h4>
                 <div className="mt-4 max-w-3xl mx-auto mb-6">
-    <p className="text-xl md:text-2xl tracking-wide">
-    I began my college studies in 2018 and completed them in 2023. Throughout my academic journey, I immersed myself in studying various programming languages, notably Java and Python, along with other web development tools. I took numerous courses, with a notable emphasis on data structures and algorithms. Holding a bachelor's degree in Computer Science, I have a solid foundation in software development.
-    </p>
-</div>
+                    <p className="text-xl md:text-2xl tracking-wide">
+                        I began my college studies in 2018 and completed them in 2023. Throughout my academic journey, I immersed myself in studying various programming languages, notably Java and Python, along with other web development tools. I took numerous courses, with a notable emphasis on data structures and algorithms. Holding a bachelor's degree in Computer Science, I have a solid foundation in software development.
+                    </p>
+                </div>
 
 
 

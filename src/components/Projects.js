@@ -62,7 +62,7 @@ const Projects = () => {
 
             {activeCategory === 'Software Developing' && (
                 <div>
-                    <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between">
+                    <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
                         <img src={Pure} alt="Project 1" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
                         <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Pure Earth</h3>
                         <p className="text-base text-black mt-4 font-bold">Tech Stack:</p>
@@ -103,7 +103,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between">
+                    <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
                         <img src={Stellar} alt="Project 2" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
                         <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Stellar</h3>
                         <p className="text-base text-black mt-4 font-bold">Tech Stack:</p>
@@ -128,7 +128,7 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between">
+                    <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
                         <img src={Chatbot} alt="Project 2" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
                         <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Atlas</h3>
                         <p className="text-base text-black mt-4 font-bold">Tech Stack:</p>
@@ -166,7 +166,7 @@ const Projects = () => {
             )}
 
             {activeCategory === 'Data Science' && (
-                <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between">
+                <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
                     <img src={CommingSoon} alt="Project 2" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
                     <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Coming Soon</h3>
                     <p className="text-base text-black mt-4 font-bold">Tech Stack:</p>
