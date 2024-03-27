@@ -74,7 +74,7 @@ const Projects = () => {
                             <img src={Boot} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
                         </div>
                         <p className="mt-4 text-md md:text-basebp-6 p-6">
-                            Pure Earth stands as a preservation portal for national parks. Fueled by the MERN stack, this platform is a sanctuary for environmental preservation. It encompasses education, donation, volunteering, and leverages the ChatGPT API for interactive engagement. With mobile adaptability and secure transactions via the Stripe API, it embodies the blend of tech and conservation for a greener tomorrow.
+                        Pure Earth serves as a preservation portal for national parks. This project was developed using the MERN stack, which includes React, Express, Node.js, and MongoDB. It offers educational resources, enables donation opportunities through the Stripe API, and provides volunteering options, while also leveraging the ChatGPT API for interactive engagement. Designed with both desktop and mobile users in mind, it embodies the seamless integration of technology and conservation efforts to preserve our national parks.
                         </p>
                         <hr className="my-4 w-3/4 mx-auto" />
                         <p className="text-base text-black mt-4 font-bold">Demo Account:</p>
@@ -113,7 +113,7 @@ const Projects = () => {
                             <img src={Tail} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
                         </div>
                         <p className="mt-4 text-md md:text-basebp-6 p-6">
-                            Venture into the cosmos through my space website—an all-in-one celestial odyssey. Ignited by the SpaceX-API and an array of NASA APIs, it unveils captivating images, videos, and real-time astronaut count. Discover the universe's secrets, learn about celestial marvels, and stay attuned to space news via the Space News API. This platform seamlessly blends learning and exploration, all within a single cosmic panorama.
+                        Welcome to your gateway to the stars! My space website is an all-encompassing portal for space enthusiasts, featuring a collection of APIs from spacexdata.com, spaceflightnewsapi.net, and rapidapi.com to bring a wide variety of information directly to you. Discover the latest on SpaceX launches, crew updates, and daily space news, including discoveries and launches. Explore our dedicated section to learn about the planets in our solar system.
                         </p>
                         <div className="flex items-center justify-center space-x-1 md:space-x-4">
                             <a href="https://stellar-ashen.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
@@ -139,7 +139,7 @@ const Projects = () => {
                             <img src={Tail} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
                         </div>
                         <p className="mt-4 text-md md:text-basebp-6 p-6">
-                            Atlas is a versatile digital assistant designed to engage in intelligent conversations, solve complex math problems, and assist with a wide range of writing tasks. From crafting essays to composing poems and even drafting entire books, Atlas seamlessly combines chat functionality with advanced problem-solving and creative writing capabilities, making it an indispensable tool for students, professionals, and anyone in between looking for a multi-functional bot companion.
+                            Atlas is a versatile digital assistant designed to engage in intelligent conversations, solve complex math problems, and assist with a wide range of writing tasks. From crafting essays to composing poems and even drafting entire books, Atlas seamlessly combines chat functionality with advanced problem-solving and creative writing capabilities, making it a great tool for students, professionals, and anyone in between looking for a multi-functional bot companion.
                         </p>
                         <hr className="my-4 w-3/4 mx-auto" />
                         <p className="mt-2 text-sm">Using free tier of render so backend will take a few mins to spin up!</p>
