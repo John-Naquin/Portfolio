@@ -91,7 +91,7 @@ const Projects = () => {
                         <p className="mt-2 text-sm">Using free tier of render so backend will take a few mins to spin up!</p>
                         <hr className="my-4 w-3/4 mx-auto" />
                         <div className="flex items-center justify-center space-x-1 md:space-x-4">
-                            <a href="https://pureearth.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                            <a href="https://pureearth.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
                                 <img src={LinkIcon} alt="Live Demo Icon" className="h-4 w-4 mr-1 md:mr-2" />
                                 Live Demo
                             </a>
