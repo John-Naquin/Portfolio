@@ -39,7 +39,7 @@ const Hero = () => {
       <div className="flex justify-center space-x-6 mt-4">
         <button 
           className="w-14 h-14 bg-transparent rounded-full border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800 shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out"
-          onClick={() => handleButtonClick('https://github.com/Rookie1829?tab=repositories')}
+          onClick={() => handleButtonClick('https://github.com/John-Naquin')}
         >
           <img src={githubIcon} alt="GitHub" className="w-8 h-8 mx-auto" />
         </button>
