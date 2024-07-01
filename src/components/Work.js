@@ -49,11 +49,11 @@ const Work = () => {
 
             <div className="mb-20">
                 <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600 text-center">Mood Social and Dating</h4>
-                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black text-center">Software Developer | Remote | October 2023 - Present</h5>
+                <h5 className="text-lg font-semibold tracking-wide mt-2 text-black text-center">Software Developer | Remote | October 2023 - June 2024</h5>
                 <ul className="text-lg md:text-xl tracking-wide mt-4 mx-auto max-w-2xl pl-0">
-                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Utilizing Android Studio and various code emulators to rigorously test and debug the Mood app, ensuring the code performs optimally across different devices and scenarios.</li>
-                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Developing the front end of the Mood app with React.js and the back end with Python to deliver a seamless and responsive user experience. The app has over 1,000 downloads across iOS and Android, with more than 300 daily active users.</li>
-                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Developing key features for the app including an admin portal with app insights and specialized account management, a verification system for monthly payments or social media, and the integration of OpenAI's advanced AI capabilities to enhance conversational skills.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Utilized Android Studio and various code emulators to rigorously test and debug the Mood app, ensuring the code performed optimally across different devices and scenarios.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">eveloped the front end of the Mood app with React Native and the back end with Python to deliver a seamless and responsive user experience. The app reached over 1,000 downloads across iOS and Android, with more than 300 daily active users.</li>
+                    <li className="my-3 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">Developed key features for the app, including an admin portal with app insights and specialized account management, a verification system for monthly payments or social media, and the integration of OpenAI's advanced AI capabilities to enhance conversational skills.</li>
                 </ul>
             </div>
 

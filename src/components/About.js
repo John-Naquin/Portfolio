@@ -85,13 +85,36 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <h3 className="text-3xl font-bold tracking-wide mt-8 text-blue-600">Education</h3>
-                <h4 className="text-xl font-bold tracking-wide mt-4 text-black">University of Louisiana at Lafayette</h4>
-                <div className="mt-4 max-w-3xl mx-auto mb-6">
-                    <p className="text-xl md:text-2xl tracking-wide">
-                        I began my college studies in 2018 and completed them in 2023. Throughout my academic journey, I immersed myself in studying various programming languages, notably Java and Python, along with other web development tools. I took numerous courses, with a notable emphasis on data structures and algorithms. Holding a bachelor's degree in Computer Science, I have a solid foundation in software development.
-                    </p>
+                <div className="mb-20">
+                <h3 className="text-3xl font-bold tracking-wide mt-8 text-blue-600 text-center">Education</h3>
+
+                <div className="mb-12">
+                    <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600 text-center">University of Louisiana at Lafayette</h4>
+                    <h5 className="text-lg font-semibold tracking-wide mt-2 text-black text-center">Bachelor's Degree in Computer Science | 2018 - 2023</h5>
+                    <ul className="text-lg md:text-xl tracking-wide mt-2 mx-auto max-w-2xl pl-0">
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CMPS 150 Introduction to Computer Science</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CMPS 340 Design and Analysis of Algorithms</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CMPS 341 Foundations of Computer Science</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CMPS 453 Introduction To Software Methodology</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CMPS 455 Operating Systems</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CMPS 460 Database Management Systems</li>
+                    </ul>
                 </div>
+
+                <div className="mb-12">
+                    <h4 className="text-xl font-bold tracking-wide mt-4 text-blue-600 text-center">University of West Florida</h4>
+                    <h5 className="text-lg font-semibold tracking-wide mt-2 text-black text-center">Master's Degree in Data Science | Present - 2026</h5>
+                    <ul className="text-lg md:text-xl tracking-wide mt-2 mx-auto max-w-2xl pl-0">
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">STA 5176 Statistical Modeling</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">STA 6235 Modeling in Regression</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">IDC 6940 Capstone Projects in Data Science</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">IDC 6210 Machine Learning for Data Science</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CAP 6771 Data Mining</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">IDC 6145 Big Data Analytics for Data Science</li>
+                    </ul>
+                </div>
+            </div>
+
             </div>
             <p className={`text-4xl text-blue-600 absolute bottom-0 left-0 transform ${bottomTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={bottomTagRef}>&lt;/section&gt;</p>
         </section>

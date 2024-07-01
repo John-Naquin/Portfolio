@@ -21,7 +21,7 @@ const Hero = () => {
           "Software Developer",
           1000,
           "",
-          "Full Stack Developer",
+          "Data Scientist",
           1000,
           "",
         ]}
@@ -32,7 +32,7 @@ const Hero = () => {
 
       <div className="mt-4 max-w-3xl mx-auto mb-6">
         <p className="text-xl md:text-2xl tracking-wide">
-          I'm a Full Stack Developer and Software Developer with a bachelor's in Computer Science, passionate about both tech and space. 🌎
+        I'm a Data Scientist and Software Developer with a bachelor's in Computer Science. I am currently pursuing my master's in Data Science. I am passionate about both tech and space. 🌎
         </p>
       </div>
       
