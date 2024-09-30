@@ -53,7 +53,7 @@ const Hero = () => {
 
         <button 
           className="w-14 h-14 bg-transparent rounded-full border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800 shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out"
-          onClick={() => handleButtonClick('https://1drv.ms/b/c/24bcd1f502d345be/EceBPcim8n9KhIkjBfck41wBtsMS1LzDjxU4OqH4tSZrng?e=4k53Pn')}
+          onClick={() => handleButtonClick('https://1drv.ms/b/c/24bcd1f502d345be/EXIzWIlpGlVNjIQ8brRrG6sBCKp4NAay7nWbrg45Bn8Baw?e=xl5IG0')}
         >
           <img src={resumeIcon} alt="Resume" className="w-8 h-8 mx-auto" />
         </button>
