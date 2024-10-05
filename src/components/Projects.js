@@ -52,7 +52,7 @@ const Projects = () => {
 
             <div className="flex justify-center mb-4">
                 <button className={`px-4 py-2 mr-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Software Development' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Software Development')}>
-                    Software Developing
+                    Software Development
                 </button>
                 <button className={`px-12 py-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Data Science' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Data Science')}>
                     Data Science
