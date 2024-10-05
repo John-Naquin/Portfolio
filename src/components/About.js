@@ -107,7 +107,7 @@ const About = () => {
                     <ul className="text-lg md:text-xl tracking-wide mt-2 mx-auto max-w-2xl pl-0">
                         <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">STA 5176 Statistical Modeling</li>
                         <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">STA 6235 Modeling in Regression</li>
-                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">IDC 6940 Capstone Projects in Data Science</li>
+                        <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">STA 6707 Multivariate Methods</li>
                         <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">IDC 6210 Machine Learning for Data Science</li>
                         <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">CAP 6771 Data Mining</li>
                         <li className="my-1 pl-5 relative list-none before:content-['•'] before:absolute before:left-0 before:text-blue-600">IDC 6145 Big Data Analytics for Data Science</li>
