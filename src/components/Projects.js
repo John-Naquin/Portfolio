@@ -60,7 +60,7 @@ const Projects = () => {
             </div>
 
 
-            {activeCategory === 'Software Developing' && (
+            {activeCategory === 'Software Development' && (
                 <div>
                     <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
                         <img src={Pure} alt="Project 1" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
