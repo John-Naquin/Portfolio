@@ -15,7 +15,7 @@ import Python from '../images/python.png';
 import Next from '../images/nextjs.jpg';
 
 const Projects = () => {
-    const [activeCategory, setActiveCategory] = useState('Software Developing');
+    const [activeCategory, setActiveCategory] = useState('Software Development');
     const [topTagVisible, setTopTagVisible] = useState(false);
     const [bottomTagVisible, setBottomTagVisible] = useState(false);
     const topTagRef = useRef(null);
@@ -51,7 +51,7 @@ const Projects = () => {
             <p className={`text-4xl text-blue-600 absolute top-0 left-0 transform ${topTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={topTagRef}>&lt;section id="projects"&gt;</p>
 
             <div className="flex justify-center mb-4">
-                <button className={`px-4 py-2 mr-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Software Developing' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Software Developing')}>
+                <button className={`px-4 py-2 mr-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Software Development' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Software Development')}>
                     Software Developing
                 </button>
                 <button className={`px-12 py-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Data Science' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Data Science')}>
