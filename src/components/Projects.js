@@ -53,14 +53,27 @@ const Projects = () => {
         <section id="projects" className="font-source-code-pro p-10 pb-56 pt-40 mt-8 relative grid gap-8 place-items-center">
             <p className={`text-4xl text-blue-600 absolute top-0 left-0 transform ${topTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={topTagRef}>&lt;section id="projects"&gt;</p>
 
-            <div className="flex justify-center mb-4">
-                <button className={`mx-10 px-12 py-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Data Science' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Data Science')}>
+            <div className="flex flex-col md:flex-row justify-center items-center mb-4 gap-4">
+                <button
+                    className={`w-full md:w-auto px-6 py-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Data Science'
+                            ? 'bg-blue-600 hover:bg-blue-700 text-white'
+                            : 'bg-gray-200 hover:bg-gray-300 text-blue-600'
+                        }`}
+                    onClick={() => setActiveCategory('Data Science')}
+                >
                     Data Science
                 </button>
-                <button className={`px-1 py-2 mr-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Software Development' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Software Development')}>
+                <button
+                    className={`w-full md:w-auto px-6 py-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Software Development'
+                            ? 'bg-blue-600 hover:bg-blue-700 text-white'
+                            : 'bg-gray-200 hover:bg-gray-300 text-blue-600'
+                        }`}
+                    onClick={() => setActiveCategory('Software Development')}
+                >
                     Software Development
                 </button>
             </div>
+
 
 
             {activeCategory === 'Software Development' && (
