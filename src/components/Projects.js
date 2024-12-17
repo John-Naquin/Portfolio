@@ -13,9 +13,12 @@ import CommingSoon from '../images/comming_soon.jpg';
 import Chatbot from '../images/chatbot.gif';
 import Python from '../images/python.png';
 import Next from '../images/nextjs.jpg';
+import GoogleColab from '../images/googlecolab.png';
+import CreditCardFraud from '../images/creditcardfraud logo.jpg';
+import UnemploymentJail from '../images/unemployment and jail.jpg';
 
 const Projects = () => {
-    const [activeCategory, setActiveCategory] = useState('Software Development');
+    const [activeCategory, setActiveCategory] = useState('Data Science');
     const [topTagVisible, setTopTagVisible] = useState(false);
     const [bottomTagVisible, setBottomTagVisible] = useState(false);
     const topTagRef = useRef(null);
@@ -51,11 +54,11 @@ const Projects = () => {
             <p className={`text-4xl text-blue-600 absolute top-0 left-0 transform ${topTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={topTagRef}>&lt;section id="projects"&gt;</p>
 
             <div className="flex justify-center mb-4">
-                <button className={`px-4 py-2 mr-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Software Development' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Software Development')}>
-                    Software Development
-                </button>
-                <button className={`px-12 py-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Data Science' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Data Science')}>
+                <button className={`mx-10 px-12 py-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Data Science' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Data Science')}>
                     Data Science
+                </button>
+                <button className={`px-1 py-2 mr-2 rounded-lg shadow-md transition duration-150 ease-in-out transform hover:scale-105 ${activeCategory === 'Software Development' ? 'bg-blue-600 hover:bg-blue-700 text-white' : 'bg-gray-25 hover:bg-gray-300 text-blue-600'}`} onClick={() => setActiveCategory('Software Development')}>
+                    Software Development
                 </button>
             </div>
 
@@ -166,28 +169,62 @@ const Projects = () => {
             )}
 
             {activeCategory === 'Data Science' && (
+                <div>
                 <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
-                    <img src={CommingSoon} alt="Project 2" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
-                    <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Coming Soon</h3>
+                    <img src={CreditCardFraud} alt="Project 2" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
+                    <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Credit Card Fraud</h3>
                     <p className="text-base text-black mt-4 font-bold">Tech Stack:</p>
                     <div className="flex flex-wrap justify-center items-center mt-2 space-x-2 md:space-x-4">
-
+                        <img src={GoogleColab} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
+                        <img src={Python} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
                     </div>
                     <p className="mt-4 text-md md:text-basebp-6 p-6">
-                        This Project is currently a work in progress
+                    Credit Card Fraud Detection Using Machine Learning
+                    Implemented and compared multiple machine learning models, including SVM (linear, RBF, and polynomial kernels), logistic regression, 
+                    decision trees, neural networks, and random forests to detect credit card fraud. Addressed class imbalance using under-sampling, over-sampling, and SMOTE, 
+                    achieving significant improvements in recall, precision, and F1-score. Successfully demonstrated that over-sampling methods outperformed other approaches in balancing fraud detection accuracy.
                     </p>
                     <div className="flex items-center justify-center space-x-1 md:space-x-4">
-                        <a href="https://stellar-ashen.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                        <a href="https://onedrive.live.com/?cid=24BCD1F502D345BE&id=24BCD1F502D345BE%21s73a3fc68da1d46eaa0cc4d2c2d876227&parId=24BCD1F502D345BE%21s7b7bf5cc2d344eb581fb2abbdfc07808&o=OneUp" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
                             <img src={LinkIcon} alt="Live Demo Icon" className="h-4 w-4 mr-1 md:mr-2" />
-                            Live Demo
+                            Research Paper
                         </a>
                         <span className="mx-1 md:mx-2">|</span>
-                        <a href="https://github.com/Rookie1829/Stellar" target='_blank' rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                        <a href="https://github.com/John-Naquin/Credit-Card-Fraud" target='_blank' rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
                             <img src={Github} alt="Source Code Icon" className="h-4 w-4 mr-1 md:mr-2" />
                             Source Code
                         </a>
-                    </div>
+                    </div>   
                 </div>
+
+
+                <div className="card card-shadow bg-white p-4 md:p-8 rounded w-full max-w-screen-lg text-center mx-2 mb-8 flex flex-col items-center justify-between hover:ring-4 hover:ring-blue-600 transition-all">
+                    <img src={UnemploymentJail} alt="Project 2" className="mx-auto w-full md:w-3/4 lg:w-1/2 h-32 md:h-1/2 object-cover rounded" />
+                    <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Unemployment and Incarcerations</h3>
+                    <p className="text-base text-black mt-4 font-bold">Tech Stack:</p>
+                    <div className="flex flex-wrap justify-center items-center mt-2 space-x-2 md:space-x-4">
+                        <img src={GoogleColab} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
+                        <img src={Python} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
+                    </div>
+                    <p className="mt-4 text-md md:text-basebp-6 p-6">
+                    Conducted a statistical analysis of unemployment rates and incarceration levels across six southern U.S. states, using ANOVA, Kruskal-Wallis, Chi-Square, and correlation tests.
+                     Results highlighted significant state-level disparities, with Louisiana showing the highest unemployment and incarceration rates, while Texas exhibited the lowest. Identified a 
+                     moderate correlation between unemployment and incarceration, suggesting other contributing socio-economic factors.
+                    </p>
+                    <div className="flex items-center justify-center space-x-1 md:space-x-4">
+                        <a href="https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy8yNGJjZDFmNTAyZDM0NWJlL0VYYS1EUUt4WmhCTGtsdEZZNm1VczFrQkxCeW1qTHBGX01ZM3FuWFBVY0dCNmc_ZT1xUEhSQWs&cid=24BCD1F502D345BE&id=24BCD1F502D345BE%21s020dbe7666b14b10925b4563a994b359&parId=24BCD1F502D345BE%21s7b7bf5cc2d344eb581fb2abbdfc07808&o=OneUp" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                            <img src={LinkIcon} alt="Live Demo Icon" className="h-4 w-4 mr-1 md:mr-2" />
+                            Research Paper
+                        </a>
+                        <span className="mx-1 md:mx-2">|</span>
+                            <a href="https://github.com/John-Naquin/-Unemployment-and-Incarceration-/tree/main" target='_blank' rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                            <img src={Github} alt="Source Code Icon" className="h-4 w-4 mr-1 md:mr-2" />
+                            Source Code
+                        </a>
+                    </div>   
+                </div>
+                </div>
+
             )}
 
             <p className={`text-4xl text-blue-600 absolute bottom-0 left-0 transform ${bottomTagVisible ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-700`} ref={bottomTagRef}>&lt;/section&gt;</p>

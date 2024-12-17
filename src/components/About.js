@@ -5,13 +5,14 @@ import Boot from '../images/bootstrap.png';
 import tail from '../images/tailwind.png';
 import js from '../images/js.png';
 import mongo from '../images/mongodb.png';
-import Node from '../images/node-js.png';
 import Git from '../images/git.png';
 import Python from '../images/python.png';
-import express from '../images/express.jpg';
 import java from '../images/java.png';
 import AWS from '../images/aws.webp';
-import NextJS from '../images/nextjs.jpg';
+import GoogleColab from '../images/googlecolab.png'
+import SQL from '../images/sql.png'
+import NoSQL from '../images/nosql.jpeg'
+import Scrum from '../images/scrum.png'
 
 const About = () => {
     const [topTagVisible, setTopTagVisible] = useState(false);
@@ -67,17 +68,17 @@ const About = () => {
                         <div className="grid grid-cols-2 gap-6">
                             <div>
                                 {renderSkill(atom, 'React.js')}
-                                {renderSkill(Boot, 'Bootstrap')}
                                 {renderSkill(tail, 'Tailwind CSS')}
-                                {renderSkill(js, 'Javascript')}
-                                {renderSkill(Git, 'Git')}
                                 {renderSkill(mongo, 'Mongodb')}
+                                {renderSkill(Git, 'Git')}
+                                {renderSkill(js, 'Javascript')}
+                                {renderSkill(Scrum, 'Scrum')}
                             </div>
 
                             <div>
-                                {renderSkill(NextJS, 'Next.js')}
-                                {renderSkill(Node, 'Node.js')}
-                                {renderSkill(express, 'Express.js')}
+                                {renderSkill(GoogleColab, 'Google Colab')}
+                                {renderSkill(SQL, 'SQL')}
+                                {renderSkill(NoSQL, 'NoSQL')}
                                 {renderSkill(AWS, 'AWS')}
                                 {renderSkill(Python, 'Python')}
                                 {renderSkill(java, 'Java')}
