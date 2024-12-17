@@ -9,10 +9,11 @@ import Git from '../images/git.png';
 import Python from '../images/python.png';
 import java from '../images/java.png';
 import AWS from '../images/aws.webp';
-import GoogleColab from '../images/googlecolab.png'
-import SQL from '../images/sql.png'
-import NoSQL from '../images/nosql.jpeg'
-import Scrum from '../images/scrum.png'
+import GoogleColab from '../images/googlecolab.png';
+import SQL from '../images/sql.png';
+import NoSQL from '../images/nosql.jpeg';
+import Scrum from '../images/scrum.png';
+import SAS from '../images/sas.png';
 
 const About = () => {
     const [topTagVisible, setTopTagVisible] = useState(false);
@@ -68,10 +69,10 @@ const About = () => {
                         <div className="grid grid-cols-2 gap-6">
                             <div>
                                 {renderSkill(atom, 'React.js')}
-                                {renderSkill(tail, 'Tailwind CSS')}
                                 {renderSkill(mongo, 'Mongodb')}
                                 {renderSkill(Git, 'Git')}
                                 {renderSkill(js, 'Javascript')}
+                                {renderSkill(SAS, 'SAS')}
                                 {renderSkill(Scrum, 'Scrum')}
                             </div>
 

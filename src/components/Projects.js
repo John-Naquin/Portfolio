@@ -16,6 +16,7 @@ import Next from '../images/nextjs.jpg';
 import GoogleColab from '../images/googlecolab.png';
 import CreditCardFraud from '../images/creditcardfraud logo.jpg';
 import UnemploymentJail from '../images/unemployment and jail.jpg';
+import SAS from '../images/sas.png';
 
 const Projects = () => {
     const [activeCategory, setActiveCategory] = useState('Data Science');
@@ -216,8 +217,7 @@ const Projects = () => {
                     <h3 className="text-2xl md:text-3xl font-bold tracking-wide text-blue-600 mt-4 md:mt-6">Unemployment and Incarcerations</h3>
                     <p className="text-base text-black mt-4 font-bold">Tech Stack:</p>
                     <div className="flex flex-wrap justify-center items-center mt-2 space-x-2 md:space-x-4">
-                        <img src={GoogleColab} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
-                        <img src={Python} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
+                        <img src={SAS} alt="Tech Stack" className="h-8 mx-1 md:mx-2" />
                     </div>
                     <p className="mt-4 text-md md:text-basebp-6 p-6">
                     Conducted a statistical analysis of unemployment rates and incarceration levels across six southern U.S. states, using ANOVA, Kruskal-Wallis, Chi-Square, and correlation tests.
