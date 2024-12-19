@@ -225,7 +225,7 @@ const Projects = () => {
                      moderate correlation between unemployment and incarceration, suggesting other contributing socio-economic factors.
                     </p>
                     <div className="flex items-center justify-center space-x-1 md:space-x-4">
-                        <a href="https://1drv.ms/b/c/24bcd1f502d345be/EV_hKDn91rlLpxbcGoErdQgBJmJBp2weQpN1qRZP2BjqSw" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                        <a href="https://1drv.ms/b/c/24bcd1f502d345be/EXa-DQKxZhBLkltFY6mUs1kBLBymjLpF_MY3qnXPUcGB6g?e=qPHRAk" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
                             <img src={LinkIcon} alt="Live Demo Icon" className="h-4 w-4 mr-1 md:mr-2" />
                             Research Paper
                         </a>
