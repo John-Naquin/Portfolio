@@ -199,7 +199,7 @@ const Projects = () => {
                     achieving significant improvements in recall, precision, and F1-score. Successfully demonstrated that over-sampling methods outperformed other approaches in balancing fraud detection accuracy.
                     </p>
                     <div className="flex items-center justify-center space-x-1 md:space-x-4">
-                        <a href="https://onedrive.live.com/?cid=24BCD1F502D345BE&id=24BCD1F502D345BE%21s73a3fc68da1d46eaa0cc4d2c2d876227&parId=24BCD1F502D345BE%21s7b7bf5cc2d344eb581fb2abbdfc07808&o=OneUp" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
+                        <a href="https://1drv.ms/b/c/24bcd1f502d345be/EWj8o3Md2upGoMxNLC2HYicBxjrT4W2VpQ8SY-c9DWkPKQ?e=Kd381A" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:text-blue-700 transition-colors flex items-center">
                             <img src={LinkIcon} alt="Live Demo Icon" className="h-4 w-4 mr-1 md:mr-2" />
                             Research Paper
                         </a>
