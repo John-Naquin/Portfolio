@@ -37,7 +37,7 @@ const Footer = () => {
 
                 <button 
                     className="w-12 h-12 md:w-14 md:h-14 bg-transparent rounded-full border-2 border-blue-600 hover:bg-blue-600 hover:border-blue-800 shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out"
-                    onClick={() => handleButtonClick('https://1drv.ms/b/c/24bcd1f502d345be/ERpU9o8h-zxNvec1jaUcc9gBpp_Uau5pFRzxxtA49ZR0Pg?e=o4ILhP')}
+                    onClick={() => handleButtonClick('https://1drv.ms/b/c/24bcd1f502d345be/ERpU9o8h-zxNvec1jaUcc9gBpp_Uau5pFRzxxtA49ZR0Pg?e=yIf4p9')}
                 >
                     <img src={resumeIcon} alt="Resume" className="w-6 h-6 mx-auto" />
                 </button>
